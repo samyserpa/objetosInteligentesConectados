@@ -3,7 +3,6 @@
 #define MSG_BUFFER_SIZE (50)
 char msg[MSG_BUFFER_SIZE];
 #include <DHT.h>
-//#include <DHT_U.h>
 #define DHTPIN 33
 #define DHTTYPE DHT22
 DHT dht(DHTPIN, DHTTYPE);                                                                              
