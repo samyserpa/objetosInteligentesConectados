@@ -1,6 +1,4 @@
-# Objetos Inteligentes Conectados
-
-## [Video Projeto](https://youtu.be/nSacb9xlhKQ)
+# Objetos Inteligentes Conectados 
 
 # Introdução
 Um projeto inspirado em fornecer melhor assistência de iluminação para plantas de interiores que não tem muito acesso ao sol, junto à medição de temperatura e umidade do ambiente. Tem a finalidade de ligar e desligar a luz por meio do aplicativo, assim como ver as informações de temperatura e umidade no mesmo, dando mais praticidade para o cultivo das plantas.
