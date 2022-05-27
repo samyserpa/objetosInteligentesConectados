@@ -19,7 +19,9 @@ Você encontrará eles sendo configurados no fim do código dentro do loop.
 Depois de configurado, quando ligar o ESP32 com o código já compilado, o MQTTBox exibirá as leituras constantemente.   
 ![leituraMQTTBox](https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/leituraMQTTBox.png?raw=true)  
 E para ver a leitura no celular eu configurei o aplicativo MQTTDash.  
-![MQTTDash](https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/MQTTDash.png?raw=true)  
+<p align="center">
+  <img src="https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/MQTTDash.png?raw=true" alt="Sublime's custom image"/>
+</p>    
 
 ## Hardware
 ESP32 escolhido pela praticidade de ter o wi-fi imbutido além do custo benefício. DHT22 sensor para a leitura de temperatura e umidade. Protoboard, jumpers da preferência de cada um, utilizei 2 macho x macho e 7 macho x fêmea. Um led e 5 resistores, 4 para o DHT22 e 1 para o led.
