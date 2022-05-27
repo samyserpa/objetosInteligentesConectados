@@ -14,7 +14,7 @@ Ele é definido logo no começo do código, sendo definido como `MQTT server`.
 <p align="center">
   <img src="https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/mqttServer.png?raw=true" alt="Sublime's custom image"/>
 </p>  
-Ao salvar a configuração, iremos configurar o led e quem receberá o valor do sensor. No código eu coloquei a temperatura como `tempe` e umidade como `umid`, esses são os subscriber.  
+Ao salvar a configuração, iremos configurar o led e quem receberá o valor do sensor. No código eu coloquei a temperatura como <mark>tempe</mark> e umidade como `umid`, esses são os subscriber.  
 <p align="center">
   <img src="https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/MQTTBOXpubSub.png?raw=true" alt="Sublime's custom image"/>
 </p>  
@@ -35,10 +35,12 @@ E para ver a leitura no celular eu configurei o aplicativo MQTTDash.
 ESP32 escolhido pela praticidade de ter o wi-fi imbutido além do custo benefício. DHT22 sensor para a leitura de temperatura e umidade. Protoboard, jumpers da preferência de cada um, utilizei 2 macho x macho e 7 macho x fêmea. Um led e 5 resistores, 4 para o DHT22 e 1 para o led.
 
 <p align="center">
-  <img src="[https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/MQTTDash.png?raw=true](https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/esp32.jpg?raw=true)" alt="Sublime's custom image"/> Figura ESP32
+  <img src="[https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/MQTTDash.png?raw=true](https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/esp32.jpg?raw=true)" alt="Sublime's custom image"/>
 </p>  
+<center>Figura DHT22</center>  
 <p align="center">
-  <img src="[https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/MQTTDash.png?raw=true](https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/dht22.png?raw=true)" alt="Sublime's custom image"/> Figura DHT22
+  <img src="[https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/MQTTDash.png?raw=true](https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/dht22.png?raw=true)" alt="Sublime's custom image"/> 
 </p>  
+<center>Figura DHT22</center>  
 ## Módulo de comunicação
 O MQTTBox e MQTT Dahs é leve e seu funcionamento se baseia na troca de informações entre Subscriber(Subscrito) e Publisher(Publicador), sendo que o mensageiro responsável por encaminhar e receber os dados é chamado de broker, podendo esse ser hospedado na nuvem ou local.   O sensor de temperatura atua como Publisher e publica o dado medido no tópico “tempe”, esse dado é transmitido ao Broker que encaminha para todos os clientes que estão subscritos nesse mesmo tópico “tempe”, no caso, o Computador e o Celular.
