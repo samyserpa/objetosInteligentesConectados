@@ -2,7 +2,8 @@
 
 ### Aluna:
 
-- SAMANTA SERPA DE ANDRADE | TIA: 20014929 (samyserpa)  
+- SAMANTA SERPA DE ANDRADE | TIA: 20014929 (samyserpa) 
+- [Video do projeto](https://youtu.be/8S-aUSliaFU) 
 
 # Introdução
 Um projeto inspirado em fornecer melhor assistência de iluminação para plantas de interiores que não tem muito acesso ao sol, junto à medição de temperatura e umidade do ambiente. Tem a finalidade de ligar e desligar a luz por meio do aplicativo, assim como ver as informações de temperatura e umidade no mesmo, dando mais praticidade para o cultivo das plantas.
@@ -18,7 +19,7 @@ Ele é definido logo no começo do código, sendo definido como `MQTT server`.
 <p align="center">
   <img src="https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/mqttServer.png?raw=true" alt="Sublime's custom image"/>
 </p>  
-Ao salvar a configuração, iremos configurar o led e quem receberá o valor do sensor. No código eu coloquei a temperatura como `tempe` e umidade como `umid`, esses são os subscriber.  
+Ao salvar a configuração, iremos configurar o led e quem receberá o valor do sensor. No código eu coloquei a temperatura como 'tempe' e umidade como 'umid', esses são os subscriber.  
 <p align="center">
   <img src="https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/MQTTBOXpubSub.png?raw=true" alt="Sublime's custom image"/>
 </p>  
