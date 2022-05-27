@@ -46,6 +46,10 @@ ESP32 escolhido pela praticidade de ter o wi-fi imbutido além do custo benefíc
   <img src="https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/dht22.png?raw=true" alt="Sublime's custom image"/> 
 </p>  
 <p align="center">Figura DHT22</p>   
+<p align="center">
+  <img src="https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/protoboard.jpeg?raw=true" alt="Sublime's custom image"/>
+</p>  
+<p align="center">Figura Protoboard Projeto</p>  
 
 ## Módulo de comunicação
 O MQTTBox e MQTT Dahs é leve e seu funcionamento se baseia na troca de informações entre Subscriber(Subscrito) e Publisher(Publicador), sendo que o mensageiro responsável por encaminhar e receber os dados é chamado de broker, podendo esse ser hospedado na nuvem ou local.   O sensor de temperatura atua como Publisher e publica o dado medido no tópico “tempe”, esse dado é transmitido ao Broker que encaminha para todos os clientes que estão subscritos nesse mesmo tópico “tempe”, no caso, o Computador e o Celular.
