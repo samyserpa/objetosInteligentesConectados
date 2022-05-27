@@ -15,13 +15,17 @@ Ele é definido logo no começo do código, sendo definido como <blockquote>MQTT
   <img src="https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/mqttServer.png?raw=true" alt="Sublime's custom image"/>
 </p>  
 Ao salvar a configuração, iremos configurar o led e quem receberá o valor do sensor. No código eu coloquei a temperatura como <blockquote> tempe </blockquote> e umidade como <blockquote> umid </blockquote> , esses são os subscriber.  
-![MQTTBOXpubSub](https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/MQTTBOXpubSub.png?raw=true)  
+<p align="center">
+  <img src="https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/MQTTBOXpubSub.png?raw=true" alt="Sublime's custom image"/>
+</p>  
 Você encontrará eles sendo configurados no fim do código dentro do loop.  
 <p align="center">
   <img src="https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/tempeUmid.png?raw=true" alt="Sublime's custom image"/>
 </p>  
 Depois de configurado, quando ligar o ESP32 com o código já compilado, o MQTTBox exibirá as leituras constantemente.   
-![leituraMQTTBox](https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/leituraMQTTBox.png?raw=true)  
+<p align="center">
+  <img src="https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/leituraMQTTBox.png?raw=true" alt="Sublime's custom image"/>
+</p>  
 E para ver a leitura no celular eu configurei o aplicativo MQTTDash.  
 <p align="center">
   <img src="https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/MQTTDash.png?raw=true" alt="Sublime's custom image"/>
