@@ -10,11 +10,11 @@ Foi utilizado 4 resistores de 1k conectado ao DHT22 e 1 resistor na led. Os apli
 ### Configuração MQTTBOX
 Importante colocar no Host o mesmo que você definiu no código, assim vinculando um ao outro.
 ![MQTTBOX configuração](https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/MQTTBOXconfig.png?raw=true)
-Ele é definido logo no começo do código, sendo definido como <blockquote>MQTT server</blockquote>.  
+Ele é definido logo no começo do código, sendo definido como `MQTT server`.  
 <p align="center">
   <img src="https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/mqttServer.png?raw=true" alt="Sublime's custom image"/>
 </p>  
-Ao salvar a configuração, iremos configurar o led e quem receberá o valor do sensor. No código eu coloquei a temperatura como <blockquote> tempe </blockquote> e umidade como <blockquote> umid </blockquote> , esses são os subscriber.  
+Ao salvar a configuração, iremos configurar o led e quem receberá o valor do sensor. No código eu coloquei a temperatura como `tempe` e umidade como `umid`, esses são os subscriber.  
 <p align="center">
   <img src="https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/MQTTBOXpubSub.png?raw=true" alt="Sublime's custom image"/>
 </p>  
