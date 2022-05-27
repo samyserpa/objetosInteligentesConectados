@@ -10,14 +10,16 @@ Foi utilizado 4 resistores de 1k conectado ao DHT22 e 1 resistor na led. Os apli
 ### Configuração MQTTBOX
 Importante colocar no Host o mesmo que você definiu no código, assim vinculando um ao outro.
 ![MQTTBOX configuração](https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/MQTTBOXconfig.png?raw=true)
-Ele é definido logo no começo do código, sendo definido como MQTT server.
-![MQTT server](https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/mqttServer.png?raw=true)
-Ao salvar a configuração, iremos configurar o led e quem receberá o valor do sensor. No código eu coloquei a tamperatura como tempe e umidade como umid, esses são os subscriber.
-![MQTTBOXpubSub](https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/MQTTBOXpubSub.png?raw=true)
-Você encontrará eles sendo configurados no fim do código dentro do loop.
-![tempeUmid](https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/tempeUmid.png?raw=true)
-Depois de configurado, quando ligar o ESP32 com o código já compilado, o MQTTBox exibirá as leituras constantemente. 
-![leituraMQTTBox](https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/leituraMQTTBox.png?raw=true)
+Ele é definido logo no começo do código, sendo definido como <blockquote> MQTT server </blockquote> .  
+![MQTT server](https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/mqttServer.png?raw=true)  
+Ao salvar a configuração, iremos configurar o led e quem receberá o valor do sensor. No código eu coloquei a temperatura como <blockquote> tempe </blockquote> e umidade como <blockquote> umid </blockquote> , esses são os subscriber.  
+![MQTTBOXpubSub](https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/MQTTBOXpubSub.png?raw=true)  
+Você encontrará eles sendo configurados no fim do código dentro do loop.  
+![tempeUmid](https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/tempeUmid.png?raw=true)  
+Depois de configurado, quando ligar o ESP32 com o código já compilado, o MQTTBox exibirá as leituras constantemente.   
+![leituraMQTTBox](https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/leituraMQTTBox.png?raw=true)  
+E para ver a leitura no celular eu configurei o aplicativo MQTTDash.  
+![MQTTDash](https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/MQTTDash.png?raw=true)  
 
 ## Hardware
 ESP32 escolhido pela praticidade de ter o wi-fi imbutido além do custo benefício. DHT22 sensor para a leitura de temperatura e umidade. Protoboard, jumpers da preferência de cada um, utilizei 2 macho x macho e 7 macho x fêmea. Um led e 5 resistores, 4 para o DHT22 e 1 para o led.
