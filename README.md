@@ -37,7 +37,7 @@ ESP32 escolhido pela praticidade de ter o wi-fi imbutido além do custo benefíc
 <p align="center">
   <img src="https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/esp32.jpg?raw=true" alt="Sublime's custom image"/>
 </p>  
-<p align="center">Figura DHT22</p>  
+<p align="center">Figura ESP32</p>  
 <p align="center">
   <img src="https://github.com/samyserpa/objetosInteligentesConectados/blob/main/imagens/dht22.png?raw=true" alt="Sublime's custom image"/> 
 </p>  
